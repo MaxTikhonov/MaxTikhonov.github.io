@@ -3,7 +3,16 @@
 :focus,:active{outline:none;}
 a:focus,a:active{outline:none;}
 nav,footer,header,aside{display:block;}
-html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+html,body{height:100%;
+	width:100%;
+	font-size:100%;
+	line-height:1;
+	font-size:14px;
+	-ms-text-size-adjust:100%;
+	-moz-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	min-width: 280px;
+}
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display:none;}
 button{cursor:pointer;}
@@ -41,6 +50,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 .header {
 	position: relative;
 	height: 100vh;
+	min-height: 400px;
 	background: #12bbda;
 	color: white;
 	background-image: url("../images/bg-header.jpg");
@@ -88,6 +98,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 }
 .port_item__img {
 	margin-bottom: 17px;
+}
+.port_item__img img {
+	max-width: 100%;
+	height: auto;
 }
 .port_item__title {
 	font-size: 30px;
@@ -192,5 +206,29 @@ MEDIA
 		padding-left: 15px;
 		padding-right: 15px;
 		text-align: center;
+	}
+	.header {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.header__title {
+		font-size: 38px;
+		line-height: 48px;
+		margin-bottom: 15px;
+	}
+	.header__slogan {
+		font-size: 22px;
+		line-height: 38px;
+	}
+	.portfolio {
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+	.title {
+		font-size: 36px;
+	}
+	.footer {
+		padding-top: 70px;
+		padding-bottom: 60px;
 	}
 }
