@@ -185,4 +185,11 @@ MEDIA
 	.container {
 		width: 100%;
 	}
+	.col-4 {
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
