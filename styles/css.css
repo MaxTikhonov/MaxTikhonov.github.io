@@ -187,7 +187,6 @@ MEDIA
 	}
 	.col-4 {
 		width: 100%;
-		box-sizing: border-box;
 		margin: 0px;
 		margin-bottom: 30px;
 		padding-left: 15px;
