@@ -195,7 +195,19 @@ p.footer__social-icons a:hover {
 /* ...............................
 SLIDER
 .............................. */
+.slider {
+   border: 2px solid #333;
+   max-width: 364px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+.slider-line {
+   display: flex;
+   background: orangered;
+   transition: all ease 1s;
+}
 .slider-prev, .slider-next {
+   margin-left: 7px;
    margin-top: 20px;
    color: #333;
 }
