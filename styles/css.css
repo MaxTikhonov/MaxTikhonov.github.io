@@ -203,7 +203,7 @@ SLIDER
 }
 .slider-line {
    display: flex;
-   background: orangered;
+   background: rgb(127, 214, 243);
    transition: all ease 1s;
 }
 .slider-prev, .slider-next {
