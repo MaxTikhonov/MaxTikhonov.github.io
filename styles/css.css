@@ -127,6 +127,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	bottom: 50px;
 	left: 50%;
 }
+
 /* ...............................
 FOOTER
 .............................. */
@@ -190,6 +191,13 @@ p.footer__social-icons a:hover {
 .button:hover {
 	color: #061634;
 	background-color: #fff;
+}
+/* ...............................
+SLIDER
+.............................. */
+.slider-prev, .slider-next {
+   margin-top: 20px;
+   color: #333;
 }
 /* ...............................
 MEDIA
